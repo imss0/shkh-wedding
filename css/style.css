@@ -219,77 +219,6 @@ a:focus {
   background-color: red;
 }
 
-/*** music box ***/
-.music-box {
-  position: fixed;
-  width: 300px;
-  height: 160px;
-  z-index: 120;
-  bottom: 30px;
-  right: 30px;
-}
-
-@media (max-width: 991px) {
-  .music-box {
-    width: 250px;
-    height: 120px;
-    right: auto;
-    left: 30px;
-  }
-}
-
-.music-box .music-holder {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  right: 0;
-  top: -30px;
-  visibility: hidden;
-  opacity: 0;
-  -webkit-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-}
-
-.music-box .music-holder iframe {
-  width: 100%;
-  height: 100%;
-}
-
-.music-box button {
-  background: rgba(0, 0, 0, 0.1);
-  width: 40px;
-  height: 40px;
-  line-height: 37px;
-  font-size: 18px;
-  font-size: 1rem;
-  color: #5e9a8e;
-  border: 1px solid #e6e6e6;
-  outline: 0;
-  padding: 0;
-  margin: 0;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-}
-
-@media (max-width: 991px) {
-  .music-box button {
-    right: auto;
-    left: 0;
-  }
-}
-
-.music-box .toggle-music-box {
-  top: -50px;
-  visibility: visible;
-  opacity: 1;
-}
 
 /*** scrollbar style for chrome ***/
 ::-webkit-scrollbar {
@@ -2589,6 +2518,7 @@ a:focus {
   font-size: 3.16667em;
   color: #fff;
   margin: 0;
+  line-height : 30px;
 }
 
 .cta h4 {
@@ -2596,6 +2526,7 @@ a:focus {
   font-size: 1.16667em;
   color: #fff;
   margin: 0;
+  line-height : 20px;
 }
 
 @media (max-width: 1199px) {
