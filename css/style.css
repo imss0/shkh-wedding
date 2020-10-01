@@ -1807,18 +1807,18 @@ a:focus {
   margin: 0 0 0.3em;
   padding: 0 250px;
   text-transform: capitalize;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
 }
 
 .site-footer h3 {
   font-family: 'Cafe24Oneprettynight';
-  font-size: 20px;
-  font-size: 1.222rem;
+  font-size: 15px;
+  font-size: 1.2rem;
   color: #fff;
   margin: 0 0 0.3em;
   padding: 50px;
   text-transform: capitalize;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
 
 @media (max-width: 1199px) {
@@ -1839,9 +1839,9 @@ a:focus {
 
 @media (max-width: 767px) {
   .site-footer h2 {
-    font-size: 35px;
+    font-size: 30px;
     font-size: 1.94444rem;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
 }
 
@@ -2518,15 +2518,15 @@ a:focus {
   font-size: 3.16667em;
   color: #fff;
   margin: 0;
-  line-height : 30px;
+  line-height : 25px;
 }
 
 .cta h4 {
   font-family: 'Cafe24Oneprettynight';
-  font-size: 1.16667em;
+  font-size: 1.2em;
   color: #fff;
   margin: 0;
-  line-height : 20px;
+  line-height : 25px;
 }
 
 @media (max-width: 1199px) {
@@ -2561,7 +2561,7 @@ a:focus {
 
 @media (max-width: 767px) {
   .cta h4 {
-    font-size: 0.9em;
+    font-size: 1.0em;
   }
 }
 
